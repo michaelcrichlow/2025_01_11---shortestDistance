@@ -1,5 +1,5 @@
 def shortestDistance(s: str, char: str) -> list[int]:
-    # guard clase
+    # guard clause
     if char not in s:
         raise Exception(f"ERROR: The char {char} is not in the string {s}.")
 
